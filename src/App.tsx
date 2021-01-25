@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+let a:boolean = false; 
+let b:Boolean = false;
+console.log(a === b);
+
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <span style={{color:"red"}}>{a?22:3}</span>
         <a
           className="App-link"
           href="https://reactjs.org"
