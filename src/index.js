@@ -6,10 +6,12 @@ import "./assets/css/game.css";
 
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 
+
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
